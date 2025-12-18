@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>herokuAppTS</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>cb9b35bf-fdc5-4b37-9a2a-0711809b8387</testSuiteGuid>
+   <testCaseLink>
+      <guid>5a033d0c-b1cc-4fbc-9491-b89691e54cdf</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/herokuapp/TC-001-DDT</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>50603d3c-f8fd-449f-a8ce-0b3cfac4ed7f</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/herokuApp/TC-001-DDT</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>50603d3c-f8fd-449f-a8ce-0b3cfac4ed7f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>user</value>
+         <variableId>e1ef6fcf-2e7e-4a49-9a04-60c3acb64477</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>50603d3c-f8fd-449f-a8ce-0b3cfac4ed7f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>bd0d9cd2-74ee-4dcd-a3ec-76542d9ba91f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>50603d3c-f8fd-449f-a8ce-0b3cfac4ed7f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>testType</value>
+         <variableId>a0a18a5a-291b-4a09-be75-daf1e6a7d531</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>50603d3c-f8fd-449f-a8ce-0b3cfac4ed7f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>warningMessage</value>
+         <variableId>9abdebe5-fb71-4eac-8663-a7fc3ca28996</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

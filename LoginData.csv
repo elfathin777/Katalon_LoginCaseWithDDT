@@ -1,0 +1,7 @@
+testType,username,password,expectedWarningMessage,testDesc
+p,standard_user,secret_sauce,,valid credential
+n,none,none,Epic sadface: Username is required,Send empty username and password
+n,standard_user,none,Epic sadface: Password is required,Send empty password
+n,none,secret_sauce,Epic sadface: Username is required,Send empty username
+n,fffffff,fffffff,Epic sadface: Username and password do not match any user in this service,Send invalid credential
+n,locked_out_user,secret_sauce,"Epic sadface: Sorry, this user has been locked out.",Send locker user
