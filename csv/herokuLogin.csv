@@ -1,8 +1,0 @@
-user,password,testType,warningMessage,description
-tomsmith,SuperSecretPassword!,P,,valid credential
-tom,SuperSecretPassword!,N,Your username is invalid!,"Username invalid, Password valid"
-tomsmith,SecretPassword!,N,Your password is invalid!,"Username valid, Password invalid"
-asdwadas,asdwads,N,Your username is invalid!,"Username invalid, Password invalid"
-empty,SecretPassword!,N,Your username is invalid!,"Username kosong, Password valid"
-tomsmith,empty,N,Your password is invalid!,"Username valid, Password kosong"
-empty,empty,N,Your username is invalid!,"Username kosong, Password kosong"
