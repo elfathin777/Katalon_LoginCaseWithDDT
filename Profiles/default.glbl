@@ -6,13 +6,6 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://the-internet.herokuapp.com/login'</initValue>
-      <name>herokuURL</name>
-      <protected>false</protected>
-      <valueType>STRING</valueType>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'https://www.saucedemo.com/'</initValue>
       <name>globalURL</name>
       <protected>false</protected>

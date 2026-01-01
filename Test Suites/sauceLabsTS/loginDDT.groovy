@@ -49,7 +49,7 @@ def tearDown() {
  */
 @SetupTestCase(skipped = true) // Please change skipped to be false to activate this method.
 def setupTestCase() {
-	// Put your code here.
+
 }
 
 /**

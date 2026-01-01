@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>TC-001-DDT</name>
+   <name>TC-Login</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
-   <dataFileGUID>4e489f6d-d1ac-40f6-9d44-98bd7e060645</dataFileGUID>
-   <dataSourceUrl>csv/herokuLogin.csv</dataSourceUrl>
+   <dataFileGUID>121adcdd-a3ed-480e-86c5-892c954bfba0</dataFileGUID>
+   <dataSourceUrl>csv/LoginData.csv</dataSourceUrl>
    <driver>CSV</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

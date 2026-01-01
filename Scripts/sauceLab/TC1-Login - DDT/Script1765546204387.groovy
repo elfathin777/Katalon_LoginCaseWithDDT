@@ -1,20 +1,11 @@
-import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import login.ClickLoginButtonKeyword as Click
+import login.PasswordFieldKeyword as Password
+import login.UsernameFieldKeyword as Username
+import login.VerifyAssertionKeyword as Assertion
 
-import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-import internal.GlobalVariable as GlobalVariable
-if (username != 'none') {
-   WebUI.sendKeys(findTestObject('sauceLab/Username_Field'), username)
-}
+Username.usernameField(username)
+Password.passwordField(password)
+Click.clickLoginButton()
+Assertion.verifyAssertion(testType, expectedWarningMessage)
 
-if (password != 'none') {
-    WebUI.sendKeys(findTestObject('sauceLab/Password_Field'), password)
-}
-
-WebUI.click(findTestObject('sauceLab/Login_BTN'))
-
-if (testType == 'p') {
-    WebUI.waitForElementPresent(findTestObject('sauceLab/Assertion_Log'), 0)
-} else {
-    WebUI.verifyElementText(findTestObject('sauceLab/warningContainer'), expectedWarningMessage)
-}
