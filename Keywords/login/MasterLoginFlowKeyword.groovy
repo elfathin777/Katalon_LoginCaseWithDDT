@@ -20,7 +20,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class LoginFlowKeyword {
+public class MasterLoginFlowKeyword {
 	@Keyword
 	static void loginFlow(String username, String password, String testType, String expectedWarningMessage) {
 		if (username != 'none') {
