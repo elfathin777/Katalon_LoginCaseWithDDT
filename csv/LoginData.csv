@@ -1,7 +1,19 @@
 testType,username,password,expectedWarningMessage,testDesc
-p,standard_user,secret_sauce,,valid credential
-n,none,none,Epic sadface: Username is required,Send empty username and password
-n,standard_user,none,Epic sadface: Password is required,Send empty password
 n,none,secret_sauce,Epic sadface: Username is required,Send empty username
-n,fffffff,fffffff,Epic sadface: Username and password do not match any user in this service,Send invalid credential
-n,locked_out_user,secret_sauce,"Epic sadface: Sorry, this user has been locked out.",Send locker user
+n,standard_user,none,Epic sadface: Password is required,Send empty password
+n,none,none,Epic sadface: Username is required,Send empty username and password
+p,standard_user,secret_sauce,,valid credential
+n,locked_out_user,secret_sauce,"Epic sadface: Sorry, this user has been locked out.",Locked user
+p,problem_user,secret_sauce,,Problem user
+p,performance_glitch_user,secret_sauce,,Glitch performance user
+p,error_user,secret_sauce,,Error user
+p,visual_user,secret_sauce,,Visual user
+n,invalid_user,invalid_password,Epic sadface: Username and password do not match any user in this service,Invalid credential
+n,invalid_user,secret_sauce,Epic sadface: Username and password do not match any user in this service,Invalid username
+n,standard_user,invalid_password,Epic sadface: Username and password do not match any user in this service,Invalid password
+n,Standard_user,secret_sauce,Epic sadface: Username and password do not match any user in this service,Valid username with Uppercase
+n,standard_user,Secret_sauce,Epic sadface: Username and password do not match any user in this service,Valid password with uppercase
+n, standard_user,secret_sauce,Epic sadface: Username and password do not match any user in this service,Valid username with space in first
+n,standard_user ,secret_sauce,Epic sadface: Username and password do not match any user in this service,Valid username with space in last
+n,standard_user , secret_sauce,Epic sadface: Username and password do not match any user in this service,Valid password with space in first
+n,standard_user ,secret_sauce ,Epic sadface: Username and password do not match any user in this service,Valid password with space in last
