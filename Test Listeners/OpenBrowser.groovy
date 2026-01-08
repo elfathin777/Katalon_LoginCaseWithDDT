@@ -15,7 +15,7 @@ class OpenBrowser {
 	def autoOpenBrowser(TestCaseContext testCaseContext) {
 		WebUI.openBrowser('')
 		WebUI.navigateToUrl(GlobalVariable.globalURL)
-		WebUI.waitForElementPresent(findTestObject('sauceLab/Username_Field'), 0)
+		WebUI.waitForElementPresent(findTestObject('Login/Username_Field'), 0)
 	}
 
 }

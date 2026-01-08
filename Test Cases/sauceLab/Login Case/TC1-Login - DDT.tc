@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC1-Login - DDT</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>31f186e1-8b42-4893-913d-7c6fec029a84</testCaseGuid>
+   <variable>
+      <defaultValue>'p'</defaultValue>
+      <description></description>
+      <id>18b24009-08d2-4c39-a2cd-181e14fce6f9</id>
+      <masked>false</masked>
+      <name>testType</name>
+   </variable>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>54d80923-8bd7-425c-aff4-2c4296e0c02f</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'secret_sauce'</defaultValue>
+      <description></description>
+      <id>d663f86a-56d8-4970-8ef8-545aa269243d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8e8f02ff-27d1-4040-8b0d-b938bb9c8788</id>
+      <masked>false</masked>
+      <name>expectedWarningMessage</name>
+   </variable>
+</TestCaseEntity>

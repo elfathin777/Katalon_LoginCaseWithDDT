@@ -8,7 +8,7 @@ class UsernameFieldKeyword {
 	@Keyword
 	static void usernameField(String username) {
 		if (username != 'none') {
-			WebUI.setText(findTestObject('sauceLab/Username_Field'), username)
+			WebUI.setText(findTestObject('Login/Username_Field'), username)
 		}
 	}
 }

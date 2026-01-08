@@ -15,7 +15,7 @@
       <guid>3dd15f83-1b97-426f-9aac-07a5d1ef7d0d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/sauceLab/TC1-Login - DDT</testCaseId>
+      <testCaseId>Test Cases/sauceLab/Login Case/TC1-Login - DDT</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3b101ca6-0db2-4f7b-8054-06aec0db699d</id>

@@ -1,4 +1,4 @@
-package login
+package homePage
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -20,23 +20,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class MasterLoginFlowKeyword {
+public class VerifyProductNameKeyword {
 	@Keyword
-	static void loginFlow(String username, String password, String testType, String expectedWarningMessage) {
-		if (username != 'none') {
-			WebUI.setText(findTestObject('Login/Username_Field'), username)
-		}
+	static void verifyProductName() {
+		WebUI.delay(2)
 
-		if (password != 'none') {
-			WebUI.setText(findTestObject('Login/Password_Field'), password)
-		}
-
-		WebUI.click(findTestObject('Login/Login_BTN'))
-
-		if (testType == 'p') {
-			WebUI.waitForElementPresent(findTestObject('Login/Assertion_Log'), 0)
-		} else {
-			WebUI.verifyElementText(findTestObject('Login/warningContainer'), expectedWarningMessage)
-		}
+		// verifikasi nama produk
+		WebUI.verifyElementPresent(findTestObject('Home Page/productName'), 2)
 	}
 }

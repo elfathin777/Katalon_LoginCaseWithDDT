@@ -23,6 +23,6 @@ import internal.GlobalVariable
 public class ClickLoginButtonKeyword {
 	@Keyword
 	static void clickLoginButton() {
-		WebUI.click(findTestObject('sauceLab/Login_BTN'))
+		WebUI.click(findTestObject('Login/Login_BTN'))
 	}
 }

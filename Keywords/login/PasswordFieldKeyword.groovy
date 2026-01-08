@@ -12,7 +12,7 @@ public class PasswordFieldKeyword {
 	@Keyword
 	static void passwordField(String password) {
 		if (password != 'none') {
-			WebUI.setText(findTestObject('sauceLab/Password_Field'), password)
+			WebUI.setText(findTestObject('Login/Password_Field'), password)
 		}
 	}
 }
