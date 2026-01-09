@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_SRTING_001</name>
+   <name>TC_SRTING_005</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>47f4b32a-3d82-40d0-8786-c71b90f965f0</testCaseGuid>
+   <testCaseGuid>89d3297f-f0fb-40f3-9c6b-d44f35c5e794</testCaseGuid>
 </TestCaseEntity>

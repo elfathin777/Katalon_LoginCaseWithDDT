@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC1-Login - DDT</name>
+   <name>TC_SRTING-DDT</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>31f186e1-8b42-4893-913d-7c6fec029a84</testCaseGuid>
+   <testCaseGuid>aba6ffc8-f2eb-4118-9e56-297bf49e0486</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>18b24009-08d2-4c39-a2cd-181e14fce6f9</variableId>
+      <variableId>69b742be-f431-464c-98da-279cdfff2b07</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>54d80923-8bd7-425c-aff4-2c4296e0c02f</variableId>
+      <variableId>b4961891-78fe-4562-a1a2-14856a5029d0</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d663f86a-56d8-4970-8ef8-545aa269243d</variableId>
+      <variableId>1e49dbc1-98d3-45df-b8d1-a54a230a1e24</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8e8f02ff-27d1-4040-8b0d-b938bb9c8788</variableId>
+      <variableId>744a8f30-2d8e-43f3-8e7e-dba782455b58</variableId>
    </variableLinks>
-   <variable>
-      <defaultValue>'p'</defaultValue>
-      <description></description>
-      <id>18b24009-08d2-4c39-a2cd-181e14fce6f9</id>
-      <masked>false</masked>
-      <name>testType</name>
-   </variable>
    <variable>
       <defaultValue>'standard_user'</defaultValue>
       <description></description>
-      <id>54d80923-8bd7-425c-aff4-2c4296e0c02f</id>
+      <id>69b742be-f431-464c-98da-279cdfff2b07</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
       <defaultValue>'secret_sauce'</defaultValue>
       <description></description>
-      <id>d663f86a-56d8-4970-8ef8-545aa269243d</id>
+      <id>b4961891-78fe-4562-a1a2-14856a5029d0</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>8e8f02ff-27d1-4040-8b0d-b938bb9c8788</id>
+      <id>1e49dbc1-98d3-45df-b8d1-a54a230a1e24</id>
       <masked>false</masked>
-      <name>expectedWarningMessage</name>
+      <name>sortingOption</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>744a8f30-2d8e-43f3-8e7e-dba782455b58</id>
+      <masked>false</masked>
+      <name>refresh</name>
    </variable>
 </TestCaseEntity>

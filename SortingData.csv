@@ -1,0 +1,6 @@
+username,password,sortingOption,refresh,testDesc
+standard_user,secret_sauce,Name (A to Z),n,Verifikasi fitur shoring list berfungsi dan pastikan daftar produk terurut secara ascending berdasarkan nama (A - Z)
+standard_user,secret_sauce,Name (Z to A),n,Verifikasi fitur shoring list berfungsi dan pastikan daftar produk terurut secara descending berdasarkan nama (Z-A)
+standard_user,secret_sauce,Price (low to high),n,Verifikasi bahwa daftar produk terurut secara otomatis dari harga paling murah ke paling mahal saat opsi 'Price (low to high)' dipilih
+standard_user,secret_sauce,Price (high to low),n,Verifikasi bahwa daftar produk terurut secara otomatis dari harga paling mahal ke paling murah saat opsi 'Price (low to high)' dipilih
+standard_user,secret_sauce,Price (high to low),y,Verifikasi pengurutan 'Price (low to high)' tidak kembali ke default (reset) saat halaman dimuat ulang

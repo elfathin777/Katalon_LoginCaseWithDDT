@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>sortingDDT</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>25ca0e4f-c532-45fd-891c-ae7002a8ffec</testSuiteGuid>
+   <testCaseLink>
+      <guid>c458229b-74f3-4ecf-9818-ddef40729207</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/sauceLab/Home Page/HP_SCN_002/TC_SRTING-DDT</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>571242a3-68b0-4356-af0f-cdef206e998b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/sauceLabs/TC-Sorting</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>571242a3-68b0-4356-af0f-cdef206e998b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>69b742be-f431-464c-98da-279cdfff2b07</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>571242a3-68b0-4356-af0f-cdef206e998b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>b4961891-78fe-4562-a1a2-14856a5029d0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>571242a3-68b0-4356-af0f-cdef206e998b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>sortingOption</value>
+         <variableId>1e49dbc1-98d3-45df-b8d1-a54a230a1e24</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>571242a3-68b0-4356-af0f-cdef206e998b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>refresh</value>
+         <variableId>744a8f30-2d8e-43f3-8e7e-dba782455b58</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

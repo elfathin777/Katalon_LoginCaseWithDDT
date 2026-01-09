@@ -16,16 +16,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
 import login.ClickLoginButtonKeyword as Click
 import login.PasswordFieldKeyword as Password
 import login.UsernameFieldKeyword as Username
 import login.VerifyAssertionKeyword as Assertion
 
-
 Username.usernameField(username)
 Password.passwordField(password)
 Click.clickLoginButton()
 
-
-
+WebUI.click(findTestObject('Sorting/sortingButton'))
+WebUI.selectOptionByValue(findTestObject('Sorting/sortingButton'), 'az', false)
+WebUI.delay(3)
