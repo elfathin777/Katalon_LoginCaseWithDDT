@@ -11,5 +11,5 @@ Password.passwordField(password)
 Click.clickLoginButton()
 
 WebUI.click(findTestObject('Sorting/sortingButton'))
-WebUI.selectOptionByValue(findTestObject('Sorting/sortingButton'), 'lohi', false)
+WebUI.selectOptionByValue(findTestObject('Sorting/sortingButton'), 'hilo', false)
 WebUI.delay(3)
