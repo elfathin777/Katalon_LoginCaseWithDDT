@@ -1,82 +1,113 @@
 ## 📌 Katalon Automation Testing Project
 
-**(Data-Driven Testing for Login Feature)**
+**(Data-Driven Testing – Login Feature)**
 
-This project demonstrates an **automation testing implementation** using **Katalon Studio**, focused on applying **Data-Driven Testing (DDT)** for a login feature.
+This project is an **automation testing portfolio project** developed using **Katalon Studio**, showcasing hands-on experience in **Data-Driven Testing (DDT)** and **Custom Keyword implementation** for web application testing.
 
-The project is designed to showcase fundamental automation testing skills, including test data management, scenario validation, and clean test logic structure.
+The repository is **actively maintained and continuously updated** as part of ongoing automation testing practice.
+
+---
+
+## 🚧 Project Status
+
+🔄 **In Progress**
+This project is continuously enhanced with new scenarios, reusable components, and improved automation design.
+
+---
+
+## 💼 Skills Demonstrated in This Project
+
+This project highlights practical automation testing skills, including:
+
+* Data-Driven Testing (DDT) implementation
+* Use of **Custom Keywords** for reusable automation logic
+* Web UI automation using Katalon Studio
+* Test scenario validation with multiple data variations
+* Clean and maintainable automation test structure
+* Version control using GitHub
 
 ---
 
 ## 🎯 Project Objectives
 
-* Implement **data-driven automation testing** using Katalon Studio
-* Validate multiple login scenarios using a **single automated test case**
-* Demonstrate a structured and maintainable approach to test automation
-* Serve as a **learning and portfolio project** for automation testing roles
+* Automate login functionality using a **single reusable test case**
+* Separate test logic from test data for better maintainability
+* Reduce code duplication using **Custom Keywords**
+* Apply professional automation testing practices suitable for real projects
 
 ---
 
-## 🧱 Tech Stack
+## 🧱 Tools & Technologies
 
 * **Katalon Studio**
-* **Groovy** (Test Case scripting)
-* **CSV files** for Data-Driven Testing
+* **Groovy** (Test Cases & Custom Keywords)
+* **CSV-based Test Data** (DDT)
 * **Selenium WebDriver** (Katalon built-in)
-* **Git & GitHub** for version control
+* **GitHub**
 
 ---
 
-## 🧪 Testing Scope
+## 🧪 Test Coverage (Current)
 
-### Login Feature Scenarios
+### Login Feature
 
-The automated test covers the following scenarios using different input data:
+Automated scenarios include:
 
-* Valid login
-* Invalid login
-* Empty username and/or password validation
+* Successful login with valid credentials
+* Failed login with invalid credentials
+* Validation for empty username and/or password
 
-All scenarios are executed through **one reusable test case** driven by external test data.
+All scenarios are executed through **one data-driven test case**, supported by **Custom Keywords** to keep the test logic clean and reusable.
+
+> Additional scenarios and features will be added gradually.
 
 ---
 
-## 🔁 Testing Approach
+## 🔁 Automation Approach
 
 ### Data-Driven Testing (DDT)
 
-* Test logic is written once and executed multiple times using different data sets
-* Test data is externalized in CSV files and managed through Katalon Test Data
-* This approach improves test coverage while keeping the test logic simple and reusable
+* One test logic, multiple data inputs
+* External test data improves scalability and coverage
+* Easy to extend without modifying test scripts
 
-### Test Listeners 
+### Custom Keywords
+
+* Encapsulate common actions (e.g., login steps, validation)
+* Improve reusability and readability of test cases
+* Support cleaner and more maintainable automation code
+
+### Test Listeners
+
+* Manage browser setup and teardown automatically
+* Keep test cases focused on validation logic only
+
 ---
 
-## ▶️ How to Execute the Test
+## ▶️ How to Run the Test
 
 1. Open the project in **Katalon Studio**
-2. Navigate to the **Test Case** or **Test Suite**
-3. Select the target browser
-4. Click **Run** to execute the automation test
+2. Select the **Test Case** or **Test Suite**
+3. Choose the target browser
+4. Click **Run**
 
 ---
 
-## ✅ Best Practices Applied
+## ⭐ Why This Project Matters
 
-* Data-driven test design
-* Centralized test data management
-* Clear and readable test logic
-* Reusable test flow
-* Proper version control using Git
+* Demonstrates real-world automation testing practices
+* Shows ability to write **reusable and scalable automation code**
+* Highlights understanding of test design, not just tool usage
 
 ---
 
 ## 👤 Author
 
 **Haruna Elfathin**
+Automation Testing | Katalon Studio | Data-Driven Testing
 
 ---
 
 ## 📄 License
 
-This project is created for **learning, practice, and portfolio purposes**.
+This project is created for **learning, professional development, and portfolio purposes**.
