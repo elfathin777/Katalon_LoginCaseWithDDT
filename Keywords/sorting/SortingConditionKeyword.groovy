@@ -20,11 +20,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
 import internal.GlobalVariable
 
-public class MasterSortingFlowKeyword {
+public class SortingConditionKeyword {
 	@Keyword
-	static void masterSorting(String sortingOption, String refresh) {
-		WebUI.click(findTestObject('Sorting/sortingButton'))
-
+	static void sortingCondition(String sortingOption, String refresh) {
 		if (sortingOption == 'Name (A to Z)') {
 			WebUI.selectOptionByValue(findTestObject('Sorting/sortingButton'), 'az', false)
 		} else if (sortingOption == 'Name (Z to A)') {
@@ -34,13 +32,11 @@ public class MasterSortingFlowKeyword {
 		} else if (sortingOption == 'Price (high to low)') {
 			WebUI.selectOptionByValue(findTestObject('Sorting/sortingButton'), 'hilo', false)
 		}
-
+		
 		WebUI.delay(3)
-
+		
 		if (refresh == 'y') {
 			WebUI.refresh()
 		}
-
-		WebUI.delay(1)
 	}
 }

@@ -26,5 +26,4 @@ public class KlikSortingByValueAZKeyword {
 		WebUI.selectOptionByValue(findTestObject('Sorting/sortingButton'), 'az', false)
 		WebUI.delay(3)
 	}
-	
 }
