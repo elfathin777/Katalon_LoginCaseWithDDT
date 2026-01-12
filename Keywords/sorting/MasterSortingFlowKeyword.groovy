@@ -23,16 +23,16 @@ import internal.GlobalVariable
 public class MasterSortingFlowKeyword {
 	@Keyword
 	static void masterSorting(String sortingOption, String refresh) {
-		WebUI.click(findTestObject('Sorting/sortingButton'))
+		WebUI.click(findTestObject('Home Page/Sorting/sortingButton'))
 
 		if (sortingOption == 'Name (A to Z)') {
-			WebUI.selectOptionByValue(findTestObject('Sorting/sortingButton'), 'az', false)
+			WebUI.selectOptionByValue(findTestObject('Home Page/Sorting/sortingButton'), 'az', false)
 		} else if (sortingOption == 'Name (Z to A)') {
-			WebUI.selectOptionByValue(findTestObject('Sorting/sortingButton'), 'za', false)
+			WebUI.selectOptionByValue(findTestObject('Home Page/Sorting/sortingButton'), 'za', false)
 		} else if (sortingOption == 'Price (low to high)') {
-			WebUI.selectOptionByValue(findTestObject('Sorting/sortingButton'), 'lohi', false)
+			WebUI.selectOptionByValue(findTestObject('Home Page/Sorting/sortingButton'), 'lohi', false)
 		} else if (sortingOption == 'Price (high to low)') {
-			WebUI.selectOptionByValue(findTestObject('Sorting/sortingButton'), 'hilo', false)
+			WebUI.selectOptionByValue(findTestObject('Home Page/Sorting/sortingButton'), 'hilo', false)
 		}
 
 		WebUI.delay(3)

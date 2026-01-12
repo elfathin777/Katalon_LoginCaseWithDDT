@@ -23,7 +23,7 @@ import internal.GlobalVariable
 public class KlikSortingByValueLohiKeyword {
 	@Keyword
 	static void klikSortingByValueLohi(){
-		WebUI.selectOptionByValue(findTestObject('Sorting/sortingButton'), 'lohi', false)
+		WebUI.selectOptionByValue(findTestObject('Home Page/Sorting/sortingButton'), 'lohi', false)
 		WebUI.delay(3)
 	}
 }

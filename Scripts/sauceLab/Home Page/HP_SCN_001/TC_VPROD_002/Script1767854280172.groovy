@@ -32,5 +32,5 @@ Click.clickLoginButton()
 
 Assertion.verifyAssertion(testType, expectedWarningMessage)
 
-WebUI.verifyElementText(findTestObject('Home Page/productPrice'), '$29.99')
+WebUI.verifyElementText(findTestObject('Home Page/Inventory/productPrice'), '$29.99')
 

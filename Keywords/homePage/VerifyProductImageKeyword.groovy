@@ -26,6 +26,6 @@ public class VerifyProductImageKeyword {
 		WebUI.delay(2)
 
 		// verifikasi gambar produk
-		WebUI.verifyElementPresent(findTestObject('Home Page/productImage'), 2)
+		WebUI.verifyElementPresent(findTestObject('Home Page/Inventory/productImage'), 2)
 	}
 }

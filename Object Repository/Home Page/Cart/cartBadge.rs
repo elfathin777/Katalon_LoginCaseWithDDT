@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>sortingOptionHighLow</name>
+   <name>cartBadge</name>
    <tag></tag>
-   <elementGuidId>15f99a3b-4e3a-4928-ab75-e3d8aef1102e</elementGuidId>
+   <elementGuidId>132f3ed8-ae7c-43c5-a912-4f591f54ea2d</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//option[@value='az']</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@class='shopping_cart_badge']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

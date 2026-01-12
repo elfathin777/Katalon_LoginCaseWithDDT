@@ -5,21 +5,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import login.ClickLoginButtonKeyword as Click
 import login.PasswordFieldKeyword as Password
 import login.UsernameFieldKeyword as Username
-import sorting.KlikSortingIconKeyword as ClickSortingIcon
 
+// ===== Verifikasi jumlah barang pada ikon keranjang bertambah secara akurat sesuai dengan banyaknya produk yang dipilih oleh pengguna (satu produk) =====
 Username.usernameField(username)
 
 Password.passwordField(password)
 
 Click.clickLoginButton()
 
-ClickSortingIcon.klikSortingIcon()
+int expectedQty = 0
 
-WebUI.selectOptionByValue(findTestObject('Home Page/Sorting/sortingButton'), 'hilo', false)
+WebUI.click(findTestObject('Home Page/Cart/btnAddToCart'))
+expectedQty++;
 
-WebUI.delay(1)
+int actualQty = WebUI.getText(findTestObject('Home Page/Cart/cartBadge')).toInteger()
 
-WebUI.refresh()
+WebUI.verifyEqual(expectedQty, actualQty)
 
 WebUI.delay(3)
 

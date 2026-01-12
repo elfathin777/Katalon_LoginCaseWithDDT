@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>sortingButton</name>
+   <name>btnAddToCart</name>
    <tag></tag>
-   <elementGuidId>81f54bfb-f3d2-4a8f-8355-01050d328e30</elementGuidId>
+   <elementGuidId>63d0c869-7740-4485-9bc3-8e81eea00102</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//select[@class='product_sort_container']</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='add-to-cart-sauce-labs-bike-light']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

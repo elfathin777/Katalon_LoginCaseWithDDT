@@ -26,6 +26,6 @@ public class VerifyProductNameKeyword {
 		WebUI.delay(2)
 
 		// verifikasi nama produk
-		WebUI.verifyElementPresent(findTestObject('Home Page/productName'), 2)
+		WebUI.verifyElementPresent(findTestObject('Home Page/Inventory/productName'), 2)
 	}
 }

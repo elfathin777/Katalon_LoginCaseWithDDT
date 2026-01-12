@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>sortingOptionA-Z</name>
+   <name>iconCart</name>
    <tag></tag>
-   <elementGuidId>f96fea8d-8073-4cf9-b491-25db476d8c72</elementGuidId>
+   <elementGuidId>b5e3ea1a-753b-46fd-9ed2-51011bb18357</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//option[@value='hilo']</value>
-      </entry>
       <entry>
          <key>BASIC</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@class='shopping_cart_link']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

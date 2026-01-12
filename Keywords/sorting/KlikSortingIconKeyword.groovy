@@ -23,6 +23,6 @@ import internal.GlobalVariable
 public class KlikSortingIconKeyword {
 	@Keyword
 	static void klikSortingIcon() {
-		WebUI.click(findTestObject('Sorting/sortingButton'))
+		WebUI.click(findTestObject('Home Page/Sorting/sortingButton'))
 	}
 }

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>productName</name>
+   <name>btnRemove</name>
    <tag></tag>
-   <elementGuidId>6e9b676e-21cb-4d85-9fa3-e009be974045</elementGuidId>
+   <elementGuidId>1fae0e9c-7e71-467b-9533-261b5cd4ce13</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[normalize-space()='Sauce Labs Backpack']</value>
+         <value>//button[@id='remove-sauce-labs-backpack']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
