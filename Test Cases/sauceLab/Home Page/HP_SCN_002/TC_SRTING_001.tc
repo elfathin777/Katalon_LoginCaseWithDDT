@@ -18,6 +18,12 @@
       <value></value>
       <variableId>82b73ac9-1450-4edf-913f-8fafa907a165</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>010511d0-766c-45bf-8cf4-387871427dcf</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'standard_user'</defaultValue>
       <description></description>
@@ -31,5 +37,12 @@
       <id>82b73ac9-1450-4edf-913f-8fafa907a165</id>
       <masked>false</masked>
       <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>010511d0-766c-45bf-8cf4-387871427dcf</id>
+      <masked>false</masked>
+      <name>actualPrices</name>
    </variable>
 </TestCaseEntity>

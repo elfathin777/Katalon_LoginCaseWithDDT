@@ -16,7 +16,7 @@ Click.clickLoginButton()
 int expectedQty = 0
 
 WebUI.click(findTestObject('Home Page/Cart/btnAddToCart'))
-expectedQty++;
+expectedQty++
 
 int actualQty = WebUI.getText(findTestObject('Home Page/Cart/cartBadge')).toInteger()
 
