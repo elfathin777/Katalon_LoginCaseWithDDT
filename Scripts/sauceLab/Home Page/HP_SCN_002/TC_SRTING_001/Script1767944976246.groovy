@@ -11,4 +11,4 @@ Click.clickLoginButton()
 
 KlikSorting.klikSortingIcon()
 AZSorting.klikSortingByValueAZ()
-Verify.verifyPriceSortingLowToHigh()
+Verify.verifyNameSortingAToZ()

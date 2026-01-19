@@ -22,7 +22,7 @@ import internal.GlobalVariable
 
 public class KlikSortingByValueZAKeyword {
 	@Keyword
-	static void klikSortingByValueAZ(){
+	static void klikSortingByValueZA(){
 		WebUI.selectOptionByValue(findTestObject('Home Page/Sorting/sortingButton'), 'za', false)
 		WebUI.delay(3)
 	}
